@@ -1,0 +1,318 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Antonio Silva",
+      "company": "AGM serviços",
+      "situation": 1,
+      "cellphone": "45 99999-1209",
+      "phone": "45 3326-2020",
+      "email": "antonio.silva@agm.com.br",
+      "address": "Av. Brasil",
+      "number": "5746",
+      "city": "Cascavel",
+      "uf": "PR",
+      "coords": {
+        "latitude": -24.955315,
+        "longitude": -53.4509409
+      },
+      "opportunities": [
+        {
+          "id": 1,
+          "type": "winner",
+          "value": 210000,
+          "quantity": 21
+        },
+        {
+          "id": 2,
+          "type": "open",
+          "value": 12000,
+          "quantity": 7
+        },
+        {
+          "id": 3,
+          "type": "lost",
+          "value": 3000,
+          "quantity": 2
+        },
+        {
+          "id": 4,
+          "type": "discarded",
+          "value": 0,
+          "quantity": 0
+        }
+      ],
+      "credit": {
+        "granted": 50000,
+        "available": 10000
+      },
+      "financial": [
+        {
+          "id": 1,
+          "type": "paid",
+          "value": 2100
+        },
+        {
+          "id": 2,
+          "type": "paid",
+          "value": 12000
+        },
+        {
+          "id": 3,
+          "type": "paid",
+          "value": 3000
+        },
+        {
+          "id": 4,
+          "type": "expired",
+          "value": 15000
+        },
+        {
+          "id": 5,
+          "type": "expired",
+          "value": 1000
+        },
+        {
+          "id": 5,
+          "type": "expired",
+          "value": 1500
+        },
+        {
+          "id": 5,
+          "type": "overcome",
+          "value": 600
+        },
+        {
+          "id": 5,
+          "type": "overcome",
+          "value": 1200
+        }
+      ],
+      "sales": [
+        {
+          "id": 1,
+          "quarter": 1,
+          "value": 210000
+        },
+        {
+          "id": 2,
+          "quarter": 2,
+          "value": 150000
+        },
+        {
+          "id": 3,
+          "quarter": 3,
+          "value": 190000
+        },
+        {
+          "id": 4,
+          "quarter": 4,
+          "value": 200000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Thales Erick da Mota",
+      "company": "predialnet",
+      "situation": 1,
+      "cellphone": "(31) 98144-1951",
+      "phone": "(31) 3659-6007",
+      "email": "thaleserickdamota@predialnet.com.br",
+      "address": "Rua Zaqueu",
+      "number": "909",
+      "city": "Contagem",
+      "uf": "MG",
+      "coords": {
+        "latitude": -19.9161557,
+        "longitude": -44.076413
+      },
+      "opportunities": [
+        {
+          "id": 1,
+          "type": "winner",
+          "value": 100000,
+          "quantity": 11
+        },
+        {
+          "id": 2,
+          "type": "open",
+          "value": 11000,
+          "quantity": 3
+        },
+        {
+          "id": 3,
+          "type": "lost",
+          "value": 1000,
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "type": "discarded",
+          "value": 0,
+          "quantity": 0
+        }
+      ],
+      "credit": {
+        "granted": 20000,
+        "available": 2000
+      },
+      "financial": [
+        {
+          "id": 1,
+          "type": "paid",
+          "value": 2100
+        },
+        {
+          "id": 2,
+          "type": "paid",
+          "value": 12000
+        },
+        {
+          "id": 3,
+          "type": "paid",
+          "value": 3000
+        },
+        {
+          "id": 4,
+          "type": "expired",
+          "value": 15000
+        },
+        {
+          "id": 5,
+          "type": "expired",
+          "value": 1000
+        },
+        {
+          "id": 5,
+          "type": "expired",
+          "value": 1500
+        },
+        {
+          "id": 5,
+          "type": "overcome",
+          "value": 600
+        },
+        {
+          "id": 5,
+          "type": "overcome",
+          "value": 1200
+        }
+      ],
+      "sales": [
+        {
+          "id": 1,
+          "quarter": 1,
+          "value": 94000
+        },
+        {
+          "id": 2,
+          "quarter": 2,
+          "value": 100000
+        },
+        {
+          "id": 3,
+          "quarter": 3,
+          "value": 78000
+        },
+        {
+          "id": 4,
+          "quarter": 4,
+          "value": 55000
+        }
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "id_cliente": 1,
+      "type": "call",
+      "status": "finish",
+      "title": "Ligação de agendamento",
+      "contact": "André",
+      "date": "16/11/2020 18:00"
+    },
+    {
+      "id": 4,
+      "id_cliente": 1,
+      "type": "call",
+      "status": "finish",
+      "title": "Confirmação de agendamento",
+      "contact": "André",
+      "date": "17/11/2020 16:00"
+    },
+    {
+      "id": 2,
+      "id_cliente": 1,
+      "type": "email",
+      "status": "provided",
+      "title": "Formalização por e-mail da ligação",
+      "contact": "Jean",
+      "date": "18/11/2020 18:00"
+    },
+    {
+      "id": 3,
+      "id_cliente": 1,
+      "type": "meeting",
+      "status": "overdue",
+      "title": "Reunião de finalização de ação",
+      "contact": "Giovani",
+      "date": "17/11/2020 18:00"
+    },
+    {
+      "id": 5,
+      "id_cliente": 1,
+      "type": "meeting",
+      "status": "progress",
+      "title": "Reunião entre os colaboradores",
+      "contact": "Camila",
+      "date": "19/11/2020 18:00"
+    },
+    {
+      "id": 6,
+      "id_cliente": 2,
+      "type": "call",
+      "status": "finish",
+      "title": "Ligação de agendamento",
+      "contact": "Antonio",
+      "date": "16/11/2020 18:00"
+    },
+    {
+      "id": 7,
+      "id_cliente": 2,
+      "type": "call",
+      "status": "finish",
+      "title": "Confirmação de agendamento",
+      "contact": "Larissa",
+      "date": "17/11/2020 16:00"
+    },
+    {
+      "id": 8,
+      "id_cliente": 2,
+      "type": "email",
+      "status": "provided",
+      "title": "Formalização por e-mail da ligação",
+      "contact": "Jean",
+      "date": "18/11/2020 18:00"
+    },
+    {
+      "id": 9,
+      "id_cliente": 2,
+      "type": "meeting",
+      "status": "overdue",
+      "title": "Reunião de finalização de ação",
+      "contact": "Raul",
+      "date": "17/11/2020 18:00"
+    },
+    {
+      "id": 10,
+      "id_cliente": 2,
+      "type": "meeting",
+      "status": "progress",
+      "title": "Reunião entre os colaboradores",
+      "contact": "Monica",
+      "date": "19/11/2020 18:00"
+    }
+  ]
+}
